@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-07-08T22:19:30.485835",
+  "contract": "IMDB Data Quality",
+  "rules": {
+    "no_nulls": {
+      "passed": true,
+      "severity": "error",
+      "details": "OK"
+    },
+    "labels_in_set": {
+      "passed": true,
+      "severity": "error",
+      "details": "OK"
+    },
+    "min_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "max_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "no_duplicates": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "class_balance": {
+      "passed": true,
+      "severity": "info",
+      "details": "OK"
+    }
+  }
+}
